@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Registration Form</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Registration</h2>
+      <form>
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="first name"
+          required
+        />
+        <span id="warningfirst" style="color: red"> </span> <br /><br />
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="last name"
+          required
+        />
+        <span id="warninglast" style="color: red"> </span> <br /><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="email"
+          required
+        />
+        <span id="warningemail" style="color: red"> </span> <br /><br />
+        <input
+          type="password"
+          name="pass"
+          id="pass"
+          placeholder="password"
+          required
+        />
+        <span id="message" style="color: red"> </span> <br /><br />
+        <input
+          type="password"
+          name="confirm-pass"
+          id="confirm-pass"
+          placeholder=" confirm password"
+          required
+        />
+        <span id="warning" style="color: red"> </span> <br /><br />
+        <input
+          type="text"
+          placeholder="mobile number"
+          name="mobile"
+          id="mobile"
+          required
+        />
+        <span id="warningnumber" style="color: red"> </span> <br /><br />
+
+        <div class="btns">
+          <button type="submit" id="btn_submit">Register</button>
+        </div>
+      </form>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
